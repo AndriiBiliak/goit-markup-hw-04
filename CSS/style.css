@@ -173,9 +173,14 @@ header {
 /* Ефективні бізнесу */
 
 .hero {
+  min-width: 1600px;
   text-align: center;
   padding: 200px 0;
-  background: #2f303a;
+  background-color: #2f303a;
+  background-image: url(../images/main/Img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
