@@ -443,6 +443,7 @@ footer {
 }
 .foot-wrap {
   display: flex;
+  align-items: baseline;
 }
 
 .footer {
