@@ -64,7 +64,7 @@
       </div>
     </header>
 
-    <main class="main">
+    <main class="main ">
       <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
@@ -77,48 +77,46 @@
       <section class="about section">
         <div class="container">
           <h2 class="visually-hidden">Переваги</h2>
-          <ul class="list-icon-about">
-            <li class="item-icon-adout">
-              <svg class="about-icons" width="70" height="70">
-                <use href="./images/icons.svg#antenna"></use>
-              </svg>
-            </li>
-            <li class="item-icon-adout">
-              <svg class="about-icons" width="70" height="70">
-                <use href="./images/icons.svg#clock"></use>
-              </svg>
-            </li>
-            <li class="item-icon-adout">
-              <svg class="about-icons" width="70" height="70">
-                <use href="./images/icons.svg#diagram"></use>
-              </svg>
-            </li>
-            <li class="item-icon-adout">
-              <svg class="about-icons" width="70" height="70">
-                <use href="./images/icons.svg#astronaut"></use>
-              </svg>
-            </li>
-          </ul>
           <ul class="list-about">
             <li class="item-about">
+              <div class="item-icon-adout">
+                <svg class="about-icons" width="70" height="70">
+                  <use href="./images/icons.svg#antenna"></use>
+                </svg>
+              </div>
               <h3 class="title-about">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="text-about">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li class="item-about">
+              <div class="item-icon-adout">
+                <svg class="about-icons" width="70" height="70">
+                  <use href="./images/icons.svg#clock"></use>
+                </svg>
+              </div>
               <h3 class="title-about">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="text-about">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="item-about">
+              <div class="item-icon-adout">
+                <svg class="about-icons" width="70" height="70">
+                  <use href="./images/icons.svg#diagram"></use>
+                </svg>
+              </div>
               <h3 class="title-about">ПЛАНУВАННЯ</h3>
               <p class="text-about">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="item-about">
+              <div class="item-icon-adout">
+                <svg class="about-icons" width="70" height="70">
+                  <use href="./images/icons.svg#astronaut"></use>
+                </svg>
+              </div>
               <h3 class="title-about">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="text-about">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -442,34 +440,46 @@
           <h2 class="title-hero">Постійні клієнти</h2>
           <ul class="icons-list">
             <li class="icons-item">
-              <svg class="cliens-icons" width="106" height="60">
-                <use href="./images/icons.svg#Logo-1"></use>
-              </svg>
+              <a class="icons-link" href="">
+                <svg class="cliens-icons" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-1"></use>
+                </svg>
+              </a>
             </li>
             <li class="icons-item">
-              <svg class="cliens-icons" width="106" height="60">
-                <use href="./images/icons.svg#Logo-2"></use>
-              </svg>
+              <a class="icons-link" href="">
+                <svg class="cliens-icons" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-2"></use>
+                </svg>
+              </a>
             </li>
             <li class="icons-item">
-              <svg class="cliens-icons" width="106" height="60">
-                <use href="./images/icons.svg#Logo-3"></use>
-              </svg>
+              <a class="icons-link" href="">
+                <svg class="cliens-icons" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-3"></use>
+                </svg>
+              </a>
             </li>
             <li class="icons-item">
-              <svg class="cliens-icons" width="106" height="60">
-                <use href="./images/icons.svg#Logo-4"></use>
-              </svg>
+              <a class="icons-link" href="">
+                <svg class="cliens-icons" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-4"></use>
+                </svg>
+              </a>
             </li>
             <li class="icons-item">
-              <svg class="cliens-icons" width="106" height="60">
-                <use href="./images/icons.svg#Logo-5"></use>
-              </svg>
+              <a class="icons-link" href="">
+                <svg class="cliens-icons" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-5"></use>
+                </svg>
+              </a>
             </li>
             <li class="icons-item">
-              <svg class="cliens-icons" width="106" height="60">
-                <use href="./images/icons.svg#Logo-6"></use>
-              </svg>
+              <a class="icons-link" href="">
+                <svg class="cliens-icons" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -477,9 +487,9 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container foot-wrap">
+        <div class="contact">
         <a class="logo-foot" href="./index.html"><span class="accent">Web</span>Studio</a>
-        <div class="social-foot">
           <address class="cont">
             <ul class="list-cont">
               <li class="item-cont">
@@ -493,7 +503,9 @@
               </li>
             </ul>
           </address>
-          <section class="section-foot">
+          </div>
+
+          <div class="social-foot">
             <h2 class="title-foote">ПРИЄДНУЙТЕСЬ</h2>
             <ul class="socials list-foot">
               <li class="socilas-item-foot">
@@ -547,7 +559,7 @@
                 ></a>
               </li>
             </ul>
-          </section>
+          </div>
         </div>
       </div>
     </footer>
